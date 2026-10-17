@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 5 - Responsible AI Usage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --code-bg: #f1f5f9;
+      --accent: #0ea5e9;
+      --accent-light: #e0f2fe;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 50px 60px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3, h4 {
+      color: #0f172a;
+      font-weight: 700;
+      margin-top: 1.8em;
+      margin-bottom: 0.8em;
+      line-height: 1.3;
+    }
+    h1 {
+      font-size: 2.2rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4em;
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3em;
+      color: #1e40af;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: #1e293b;
+    }
+    h4 {
+      font-size: 1.1rem;
+    }
+    p {
+      margin-bottom: 1.2em;
+    }
+    strong {
+      font-weight: 600;
+      color: #0f172a;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2em 0;
+    }
+    ul, ol {
+      margin-bottom: 1.4em;
+      padding-left: 1.8em;
+    }
+    li {
+      margin-bottom: 0.4em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5em 0 2em 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background-color: #f1f5f9;
+      font-weight: 600;
+      color: #334155;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    tr:hover {
+      background-color: #f1f5f9;
+    }
+    code {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 0.88em;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0f766e;
+    }
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 16px 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1.5em 0;
+    }
+    pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      font-size: 0.9rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background-color: #eff6ff;
+      padding: 12px 18px;
+      margin: 1.5em 0;
+      border-radius: 0 8px 8px 0;
+      color: #1e3a8a;
+      font-style: italic;
+    }
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+      table, pre, blockquote {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercise 5 - Responsible AI Usage</h1>
+<p><strong>Course:</strong> CS250 - Computational Thinking</p>
+<p><strong>Class:</strong> 25A01</p>
+<p><strong>Student Name:</strong> Nguyen Duc Huy</p>
+<p><strong>Student ID:</strong> 25125014</p>
+<p><strong>GitHub Username:</strong> SpheraXX</p>
+<hr>
+<h2>Introduction</h2>
+<p>Artificial Intelligence (AI), particularly Large Language Models (LLMs) and intelligent code generation assistants, has transformed modern software development and academic research. In technical disciplines like Computer Science, these tools offer immense productivity leverage. However, uncritical reliance on AI introduces severe risks, including cognitive atrophy, academic dishonesty, intellectual property infringement, security vulnerabilities, and logic flaws caused by model hallucinations.</p>
+<p>This report documents my hands-on experience utilizing AI since 2024 and outlines a <strong>6-Stage Closed-Loop Human-in-the-Loop Workflow</strong> developed to ensure rigorous, safe, and responsible AI integration, aligned with university integrity standards and the principles outlined in the VNPT AI Responsible AI framework.</p>
+<hr>
+<h2>1. Have you used AI before?</h2>
+<p>I have actively and systematically integrated generative AI tools into my academic and software engineering workflows since <strong>early 2024</strong>.</p>
+<h3>Frequently Utilized Tooling:</h3>
+<ul>
+  <li><strong>Conversational & Reasoning Models:</strong> ChatGPT (GPT-4 / GPT-4o), Claude 3.5 Sonnet, Google Gemini.</li>
+  <li><strong>In-Editor Code Assistants:</strong> GitHub Copilot, Cursor AI / Antigravity IDE.</li>
+  <li><strong>Research & Search Engines:</strong> Perplexity AI, Google Scholar AI integrations.</li>
+</ul>
+<h3>Practical Engineering & Academic Contexts:</h3>
+<ol>
+  <li><strong>Architectural Exploration & Ideation:</strong> Evaluating design trade-offs between architectural patterns (e.g., comparing modular OOP class decompositions vs. procedural logic) before committing to implementation.</li>
+  <li><strong>Syntax Lookup & Standard Library Deep Dives:</strong> Navigating modern C++ language standards (C++17/20), exploring memory management constructs (<code>std::unique_ptr</code>, <code>std::shared_ptr</code>, custom deleters), and understanding template metaprogramming conventions.</li>
+  <li><strong>Compiler Error Diagnostics & Refactoring:</strong> Deciphering dense compiler template instantiation errors and identifying memory leaks or segmentation faults.</li>
+  <li><strong>Documentation Scaffolding:</strong> Generating standardized API documentation skeletons, drafting markdown tables, and formatting structured reports.</li>
+</ol>
+<blockquote><p><strong>Guiding Principle:</strong> AI serves strictly as an <strong>"Intellectual Copilot"</strong> that accelerates boilerplate tasks and enhances cognitive breadth. It must never supersede the engineer's foundational critical thinking, analytical reasoning, and personal accountability for the final deliverable.</p></blockquote>
+<hr>
+<h2>2. Do you have any experience or tips for using AI?</h2>
+<p>Through extensive trial, error, and practical software development, I have formalized a disciplined <strong>6-Stage Closed-Loop Human-in-the-Loop Workflow</strong>. This iterative framework ensures that human oversight remains the authoritative control gate at every stage:</p>
+<pre><code>[1. Structured Planning] ➔ [2. Plan Review] ➔ [3. Scoped Execution] 
+                                                        │
+[6. Context Updating] 🠄 [5. Empirical Verification] 🠄 [4. Active Monitoring]</code></pre>
+<h3>The 6-Stage Responsible AI Workflow:</h3>
+<h4>Stage 1: Structured Planning</h4>
+<ul>
+  <li>Never initiate an open-ended or ambiguous prompt. Before generating any code or analytical text, instruct the AI to collaboratively outline a detailed <strong>Implementation Action Plan</strong>.</li>
+  <li>Explicitly supply the operational boundaries: problem domain, input/output schemas, technical constraints (language standard, disallowed libraries, performance budgets), and clear definitions of done.</li>
+</ul>
+<h4>Stage 2: Critical Plan Review</h4>
+<ul>
+  <li>Scrutinize the AI's proposed plan with a skeptical, adversarial mindset.</li>
+  <li>Identify and eliminate ungrounded assumptions, unnecessary architectural bloat, or hallucinations (such as recommending non-standard external dependencies). Only when the plan satisfies project constraints is approval granted to proceed.</li>
+</ul>
+<h4>Stage 3: Scoped, Incremental Execution</h4>
+<ul>
+  <li>Deconstruct complex tasks into atomic, decoupled modules.</li>
+  <li>Prompt the model to address one function, interface, or conceptual section at a time. <strong>Avoid prompting for monolithic codebase generation</strong>, as large unsegmented outputs obscure hidden bugs and make validation exponentially harder.</li>
+</ul>
+<h4>Stage 4: Active Monitoring & Real-Time Intervention</h4>
+<ul>
+  <li>Closely track the AI's streaming response and intermediate logic.</li>
+  <li>The moment the model drifts off-topic, invents non-existent APIs, or violates coding conventions, <strong>immediately abort generation</strong>. Intervene and refine the prompt prompt-context rather than allowing the model to compound the error.</li>
+</ul>
+<h4>Stage 5: Independent Empirical Verification & Peer Review</h4>
+<ul>
+  <li>This constitutes the core ethical and technical boundary:</li>
+  <li><strong>100% Comprehension:</strong> The student must be capable of explaining every line of generated code down to memory allocation mechanics.</li>
+  <li><strong>Empirical Testing:</strong> Compile locally using strict warning flags (<code>-Wall -Wextra -Wpedantic</code>) and execute against robust unit tests, edge cases, and unexpected inputs.</li>
+  <li><strong>Textbook Alignment:</strong> Cross-reference conceptual explanations against authoritative university textbooks and official language standards (e.g., ISO C++ reference manuals).</li>
+</ul>
+<h4>Stage 6: Refinement, Error Correction & Context Updating</h4>
+<ul>
+  <li>When bugs or inefficiencies are discovered, correct them directly and communicate precise diagnostic feedback to the model to explain why the previous output was flawed.</li>
+  <li><strong>Update System Context & Memory:</strong> Incorporate the discovered constraints or anti-patterns into persistent repository rules (such as <code>AGENT.md</code> or system prompt guidelines). This creates a compounding feedback loop that prevents identical mistakes from recurring in future engineering cycles.</li>
+</ul>
+<hr>
+<h2>3. Alignment with Responsible AI Core Principles</h2>
+<p>This workflow directly embodies the foundational pillars outlined in academic literature and the VNPT AI framework:</p>
+<ol>
+  <li><strong>Accountability:</strong> The student retains 100% ultimate responsibility for the correctness, performance, and security of every submitted artifact. Blaming an AI model for an error is categorically unacceptable.</li>
+  <li><strong>Transparency & Rigorous Citation:</strong> All AI interactions are documented openly via an AI Usage Declaration and dedicated weekly logs (<code>AI log/week_XX.md</code>), acknowledging prompts, model versions, and human intervention points.</li>
+  <li><strong>Data Privacy & Confidentiality:</strong> No proprietary credentials, private authentication tokens, or confidential institutional data are ever transmitted to third-party AI endpoints.</li>
+  <li><strong>Academic Integrity & Fairness:</strong> AI is harnessed to deepen conceptual mastery and hone Computational Thinking, not as an evasive shortcut to bypass essential cognitive labor.</li>
+</ol>
+  </div>
+</body>
+</html>
