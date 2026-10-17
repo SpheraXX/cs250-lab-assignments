@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 2 - Team Contract</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --code-bg: #f1f5f9;
+      --accent: #0ea5e9;
+      --accent-light: #e0f2fe;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 50px 60px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3, h4 {
+      color: #0f172a;
+      font-weight: 700;
+      margin-top: 1.8em;
+      margin-bottom: 0.8em;
+      line-height: 1.3;
+    }
+    h1 {
+      font-size: 2.2rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4em;
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3em;
+      color: #1e40af;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: #1e293b;
+    }
+    h4 {
+      font-size: 1.1rem;
+    }
+    p {
+      margin-bottom: 1.2em;
+    }
+    strong {
+      font-weight: 600;
+      color: #0f172a;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2em 0;
+    }
+    ul, ol {
+      margin-bottom: 1.4em;
+      padding-left: 1.8em;
+    }
+    li {
+      margin-bottom: 0.4em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5em 0 2em 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background-color: #f1f5f9;
+      font-weight: 600;
+      color: #334155;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    tr:hover {
+      background-color: #f1f5f9;
+    }
+    code {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 0.88em;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0f766e;
+    }
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 16px 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1.5em 0;
+    }
+    pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      font-size: 0.9rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background-color: #eff6ff;
+      padding: 12px 18px;
+      margin: 1.5em 0;
+      border-radius: 0 8px 8px 0;
+      color: #1e3a8a;
+      font-style: italic;
+    }
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+      table, pre, blockquote {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercise 2 - Team Contract</h1>
+<p><strong>Course:</strong> CS250 - Computational Thinking</p>
+<p><strong>Class:</strong> 25A01</p>
+<p><strong>Team Name:</strong> CS250 - Group 5</p>
+<p><strong>Project Title:</strong> cs252-final-project</p>
+<p><strong>Individual Submission by:</strong> Nguyen Duc Huy (Student ID: 25125014)</p>
+<hr>
+<h2>1. Team Information</h2>
+<ul>
+  <li><strong>Course:</strong> CS250 - Computational Thinking</li>
+  <li><strong>Team Size:</strong> 7 members</li>
+  <li><strong>Team Name:</strong> CS250 - Group 5</li>
+  <li><strong>Project Title:</strong> cs252-final-project</li>
+  <li><strong>Group Repository:</strong> <a href="https://github.com/callmelucian/cs252-final-project" target="_blank">https://github.com/callmelucian/cs252-final-project</a></li>
+  <li><strong>Primary Communication Channel:</strong> Messenger Group Chat & Google Sheets for Task Tracking</li>
+  <li><strong>Instructor Contact Liaison:</strong> Nguyen Tan Minh (Team Leader)</li>
+</ul>
+<h3>Member Contact & Information Roster</h3>
+<table>
+  <tr>
+    <th>No.</th>
+    <th>Student ID</th>
+    <th>Full Name</th>
+    <th>Email</th>
+    <th>GitHub Username</th>
+    <th>Preferred Contact</th>
+    <th>Project Role</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>25125027</td>
+    <td>Nguyen Tan Minh</td>
+    <td>ntminh2526@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/callmelucian" target="_blank">callmelucian</a></td>
+    <td>Messenger / Email</td>
+    <td>Team Leader</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>25125084</td>
+    <td>Tran Gia Huy</td>
+    <td>tghuy2533@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/FubuGold" target="_blank">FubuGold</a></td>
+    <td>Messenger</td>
+    <td>Main System Design</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>25125050</td>
+    <td>Bui Do Thien An</td>
+    <td>bdtan2516@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/Gasmask-Chan" target="_blank">Gasmask-Chan</a></td>
+    <td>Messenger</td>
+    <td>Algorithm & Logic Dev</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><strong>25125014</strong></td>
+    <td><strong>Nguyen Duc Huy</strong></td>
+    <td>ndhuy2526@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/SpheraXX" target="_blank">SpheraXX</a></td>
+    <td>Messenger / Email</td>
+    <td>Front-end Developer</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>25125048</td>
+    <td>Ly Tran Thai</td>
+    <td>ltthai2532@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/LyTranThai" target="_blank">LyTranThai</a></td>
+    <td>Messenger</td>
+    <td>Developer</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>25125056</td>
+    <td>Tran Dang Khoa</td>
+    <td>tdkhoa2529@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/trankhoa8581" target="_blank">trankhoa8581</a></td>
+    <td>Messenger</td>
+    <td>Backend Developer</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>23125054</td>
+    <td>Ngo Tan Dat</td>
+    <td>ntdat232@apcs.fitus.edu.vn</td>
+    <td><a href="https://github.com/diamondzone1" target="_blank">diamondzone1</a></td>
+    <td>Messenger</td>
+    <td>Security & Data</td>
+  </tr>
+</table>
+<hr>
+<h2>2. Team Goals and Expectations</h2>
+<ul>
+  <li><strong>Academic Goal:</strong> Strive for excellence in all lab assignments and the course project, targeting an overall project grade of &ge; 9.0/10.</li>
+  <li><strong>Competency & Engineering Standard:</strong></li>
+  <li>Master and apply Computational Thinking paradigms and clean modern C++ Object-Oriented Programming (OOP).</li>
+  <li>Deliver a production-grade, maintainable codebase that serves as a standout portfolio piece on each member's GitHub profile.</li>
+  <li><strong>Effort Commitment:</strong></li>
+  <li>Each member commits to investing at least <strong>8 to 10 hours per week</strong> in project-related activities (team meetings, design discussions, coding, code reviews, and documentation).</li>
+  <li>Commitment increases to <strong>12 to 15 hours per week</strong> during milestone sprints, milestone code freezes, and final presentation preparation.</li>
+</ul>
+<hr>
+<h2>3. Roles and Responsibilities</h2>
+<ol>
+  <li><strong>Nguyen Tan Minh (Team Leader):</strong> Roadmapping, sprint planning, task assignment, repository management, cross-module synchronization, and communication liaison with course staff.</li>
+  <li><strong>Tran Gia Huy (Main System Design):</strong> High-level software architecture, UML class diagrams, interface abstractions, and enforcing Google C++ Style Guide standards.</li>
+  <li><strong>Bui Do Thien An (Algorithm & Logic Developer):</strong> Research, design, and implementation of core computational algorithms, performance optimization, and complexity reduction.</li>
+  <li><strong>Nguyen Duc Huy (Front-end Developer):</strong> Designing intuitive CLI/GUI user interfaces, input validation, user experience workflows, integration with backend handlers, and user documentation.</li>
+  <li><strong>Ly Tran Thai (Developer):</strong> Feature implementation based on architectural specifications, writing robust utility routines and unit test suites.</li>
+  <li><strong>Tran Dang Khoa (Backend Developer):</strong> Persistence layers, file I/O operations, resource lifecycle management (RAII), and core application services.</li>
+  <li><strong>Ngo Tan Dat (Security & Data):</strong> Data structure security, input sanitization, integrity checking, and memory-safety audits.</li>
+</ol>
+<p><strong>Role Rotation Policy:</strong></p>
+<ul>
+  <li>If a member completes their assigned sprint backlog early or a specific module experiences a technical bottleneck, the Team Leader may reallocate tasks to enable cross-functional support upon mutual agreement.</li>
+  <li>Members wishing to rotate responsibilities (e.g., transition from Dev to System Architecture or Testing) can propose the adjustment during weekly sprint reviews.</li>
+</ul>
+<hr>
+<h2>4. Communication</h2>
+<ul>
+  <li><strong>Primary Channels:</strong> Messenger group for daily communications, quick queries, and emergency notices; Google Sheets for transparent task status tracking.</li>
+  <li><strong>Expected Response Times:</strong></li>
+  <li><em>Standard messages:</em> Within <strong>24 hours</strong>.</li>
+  <li><em>Urgent notices (tagged <code>@all</code> or time-critical blocking issues):</em> Within <strong>4 to 6 hours</strong>.</li>
+  <li><em>Acknowledgment rule:</em> Members must react (with an emoji) to acknowledge receipt of critical announcements. If instructions are unclear, the member must ask for clarification directly in the chat.</li>
+  <li><strong>Instructor Contact Point:</strong> To prevent conflicting or duplicate inquiries, only the Team Leader (Nguyen Tan Minh) is authorized to communicate officially with the lecturer and TAs on behalf of the group.</li>
+</ul>
+<hr>
+<h2>5. Meetings</h2>
+<ul>
+  <li><strong>Cadence:</strong> At least <strong>once per week</strong>, scheduled prior to the weekly CS250 lab session, with supplementary ad-hoc sessions if urgent architectural decisions arise.</li>
+  <li><strong>Format & Venue:</strong></li>
+  <li><em>In-person:</em> Campus study rooms or HCMUS library facilities before/after scheduled class hours.</li>
+  <li><em>Online:</em> Google Meet or Discord group voice channels for evening or weekend syncs.</li>
+  <li><strong>Meeting Etiquette & Rules:</strong></li>
+  <li><em>Agendas:</em> The Team Leader distributes the meeting agenda at least <strong>12 hours in advance</strong>.</li>
+  <li><em>Meeting Minutes:</em> A designated secretary (rotating weekly) documents all decisions, action items, and deadlines into <code>docs/meeting_notes.md</code> within 24 hours post-meeting.</li>
+  <li><em>Punctuality & Absences:</em> Punctual attendance is mandatory. In cases of emergency, members must notify the Team Leader at least <strong>6 hours in advance</strong> and submit an async status update.</li>
+</ul>
+<hr>
+<h2>6. Work Process and Standards</h2>
+<ul>
+  <li><strong>Task Management:</strong> Managed transparently via Google Sheets and GitHub Projects/Issues. Each task must have a single primary owner (Assignee), a clear Definition of Done (DoD), and an explicit deadline.</li>
+  <li><strong>Internal Deadlines:</strong> All code, assets, and documentation must be submitted for peer review <strong>at least 48 hours before official university submission deadlines</strong>, providing ample buffer for integration testing and bug fixes.</li>
+  <li><strong>Git Workflow & Hygiene:</strong> Strictly adhering to the protocol established in <code>AGENT.md</code>:</li>
+  <li>Direct commits to the <code>main</code> branch are strictly prohibited.</li>
+  <li>Feature branches follow standard naming: <code>feature/<module-name></code>, <code>fix/<issue-name></code>, or <code><initials>/<feature-name></code>.</li>
+  <li>Atomic conventional commits: <code>feat(...)</code>, <code>fix(...)</code>, <code>refactor(...)</code>, <code>docs(...)</code>.</li>
+  <li>Mandatory Pull Request (PR) review: Every PR must be approved by at least <strong>one peer reviewer or the Team Leader</strong> before merging.</li>
+  <li><strong>Code & Documentation Quality:</strong></li>
+  <li>Code must adhere to the Google C++ Style Guide (<code>PascalCase</code> for types, <code>camelCase</code> for functions/variables, <code>m_PascalCase</code> for class members, <code>CONSTANT_CASE</code> for constants).</li>
+  <li>All lab and milestone reports must be authored in GitHub-Flavored Markdown and rendered cleanly into standalone <code>.html</code> or <code>.pdf</code> formats.</li>
+</ul>
+<hr>
+<h2>7. Decision Making</h2>
+<ul>
+  <li>Open technical and procedural discussions are actively encouraged within the team.</li>
+  <li><strong>Consensus & Majority Vote:</strong> Technical approaches are decided by consensus whenever possible. When divergent opinions persist, decisions are resolved by a <strong>majority vote (> 50% of active members)</strong>.</li>
+  <li><strong>Final Say (Deadlock Resolution):</strong> In the event of an exact tie (e.g., 3-3 during an absence) or protracted indecision, the <strong>Team Leader has the final tie-breaking vote</strong> in the best interest of project timeline and deliverables.</li>
+</ul>
+<hr>
+<h2>8. Conflict Resolution</h2>
+<p>Disagreements are resolved through a structured 3-tier escalation framework:</p>
+<ol>
+  <li><strong>Tier 1 - Direct Peer Dialogue:</strong> The parties involved discuss the issue directly, professionally, and objectively, focusing strictly on technical data and project objectives.</li>
+  <li><strong>Tier 2 - Team Mediation:</strong> If unresolved after 24 hours, the issue is escalated to the full team during an extraordinary sync. Both perspectives are presented, followed by open debate and a binding majority vote.</li>
+  <li><strong>Tier 3 - Course Staff Consultation:</strong> If the impasse persists and jeopardizes project delivery, the Team Leader formally requests guidance from the course instructor or teaching assistants for authoritative arbitration.</li>
+</ol>
+<hr>
+<h2>9. Accountability and Consequences</h2>
+<h3>9.1. Defined Violations</h3>
+<ul>
+  <li>Missing internal deadlines without prior notice or valid justification.</li>
+  <li>Unexcused absence from two consecutive team meetings.</li>
+  <li>Failing to respond to team communications past stipulated timeframes (> 48 hours for normal messages, > 12 hours for urgent notices).</li>
+  <li>Submitting sub-standard, broken, or unformatted code that fails build checks.</li>
+  <li>Plagiarism, unauthorized code duplication, or undisclosed AI generation.</li>
+</ul>
+<h3>9.2. Escalation & Disciplinary Ladder</h3>
+<ul>
+  <li><strong>First Offense (Informal Warning):</strong> Direct reminder from the Team Leader; the member must address the delinquent deliverable within 24 hours.</li>
+  <li><strong>Second Offense (Formal Warning):</strong> Warning documented in meeting minutes; partial redistribution of critical task dependencies to ensure progress continuity.</li>
+  <li><strong>Third Offense (Course Staff Escalation):</strong> The team files an official report to the course instructor for guidance on contribution assessment.</li>
+</ul>
+<h3>9.3. Contribution Evaluation</h3>
+<ul>
+  <li>Contribution is quantified through Git commit metrics, validated PR merges, peer review participation, meeting attendance, and adherence to internal deadlines. Final contribution ratios will be accurately declared in milestone reports.</li>
+</ul>
+<hr>
+<h2>10. Academic Integrity and AI Use</h2>
+<ul>
+  <li><strong>Originality & Anti-Plagiarism:</strong> Every line of code, documentation, and analysis must reflect the team's genuine understanding. Direct copying from external sources or other student teams without clear attribution is strictly prohibited.</li>
+  <li><strong>Generative AI Guidelines:</strong></li>
+  <li>GenAI tools (ChatGPT, Claude, Gemini, GitHub Copilot) may be utilized solely for ideation, syntax lookups, architectural skeleton generation, debugging assistance, and phrasing polish.</li>
+  <li>No member may commit code generated by AI without thoroughly reading, understanding, refactoring, and verifying every line.</li>
+  <li><strong>AI Logging Protocol:</strong></li>
+  <li>All substantial AI interactions must be documented in <code>AI log/week_XX.md</code> adhering strictly to the citation format established in <code>AGENT.md</code>:</li>
+</ul>
+<blockquote><p><code>– <Tool>. <Model/Version>, <Provider>, <Interface/URL>, accessed <HH:MM> on <Month DD, YYYY>, prompt: “<Prompt>”, used to <Purpose>; <AI contribution>, <Student verification and testing details>.</code></p></blockquote>
+<hr>
+<h2>11. Changing the Contract</h2>
+<ul>
+  <li><strong>Proposal:</strong> Any member may propose amendments or revisions to this contract during any scheduled team meeting.</li>
+  <li><strong>Ratification Threshold:</strong> Amendments require ratification by a <strong>supermajority of at least 70% (at least 5 out of 7 members)</strong>.</li>
+  <li><strong>Version Control:</strong> Approved modifications will be updated directly in this contract file and committed to the repository to maintain team alignment.</li>
+</ul>
+<hr>
+<h2>12. Signatures and Member Agreement</h2>
+<p>By signing below, all 7 members confirm that they have reviewed, understood, and agreed to abide by all principles and rules set forth in this Team Contract:</p>
+<table>
+  <tr>
+    <th>No.</th>
+    <th>Member Full Name</th>
+    <th>Student ID</th>
+    <th>Date</th>
+    <th>Agreement Status</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Nguyen Tan Minh</td>
+    <td>25125027</td>
+    <td>Oct 17, 2026</td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Tran Gia Huy</td>
+    <td>25125084</td>
+    <td>Oct 17, 2026</td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Bui Do Thien An</td>
+    <td>25125050</td>
+    <td>Oct 17, 2026</td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><strong>Nguyen Duc Huy</strong></td>
+    <td><strong>25125014</strong></td>
+    <td><strong>Oct 17, 2026</strong></td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Ly Tran Thai</td>
+    <td>25125048</td>
+    <td>Oct 17, 2026</td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Tran Dang Khoa</td>
+    <td>25125056</td>
+    <td>Oct 17, 2026</td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Ngo Tan Dat</td>
+    <td>23125054</td>
+    <td>Oct 17, 2026</td>
+    <td><strong>Agreed & Signed</strong></td>
+  </tr>
+</table>
+  </div>
+</body>
+</html>
