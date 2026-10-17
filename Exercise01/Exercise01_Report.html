@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1 - Team Formation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --code-bg: #f1f5f9;
+      --accent: #0ea5e9;
+      --accent-light: #e0f2fe;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 50px 60px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3, h4 {
+      color: #0f172a;
+      font-weight: 700;
+      margin-top: 1.8em;
+      margin-bottom: 0.8em;
+      line-height: 1.3;
+    }
+    h1 {
+      font-size: 2.2rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4em;
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3em;
+      color: #1e40af;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: #1e293b;
+    }
+    h4 {
+      font-size: 1.1rem;
+    }
+    p {
+      margin-bottom: 1.2em;
+    }
+    strong {
+      font-weight: 600;
+      color: #0f172a;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2em 0;
+    }
+    ul, ol {
+      margin-bottom: 1.4em;
+      padding-left: 1.8em;
+    }
+    li {
+      margin-bottom: 0.4em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5em 0 2em 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background-color: #f1f5f9;
+      font-weight: 600;
+      color: #334155;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    tr:hover {
+      background-color: #f1f5f9;
+    }
+    code {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 0.88em;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0f766e;
+    }
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 16px 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1.5em 0;
+    }
+    pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      font-size: 0.9rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background-color: #eff6ff;
+      padding: 12px 18px;
+      margin: 1.5em 0;
+      border-radius: 0 8px 8px 0;
+      color: #1e3a8a;
+      font-style: italic;
+    }
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+      table, pre, blockquote {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercise 1 - Team Formation</h1>
+<p><strong>Course:</strong> CS250 - Computational Thinking</p>
+<p><strong>Class:</strong> 25A01</p>
+<p><strong>Student Name:</strong> Nguyen Duc Huy</p>
+<p><strong>Student ID:</strong> 25125014</p>
+<p><strong>Project Role:</strong> Front-end Developer</p>
+<hr>
+<h2>1. Team Overview</h2>
+<ul>
+  <li><strong>Team Size:</strong> 7 members</li>
+  <li><strong>Team Name:</strong> CS250 - Group 5</li>
+  <li><strong>Project Domain:</strong> C++ Object-Oriented Software Engineering & Computational Problem Solving</li>
+  <li><strong>Group Repository:</strong> <a href="https://github.com/callmelucian/cs252-final-project" target="_blank">https://github.com/callmelucian/cs252-final-project</a></li>
+  <li><strong>Primary Communication Channels:</strong> Messenger Group Chat & Google Sheets for Task Management</li>
+</ul>
+<hr>
+<h2>2. Member Roster and Role Distribution</h2>
+<p>Following team discussions and consensus, the roles and responsibilities across the project lifecycle are assigned as follows:</p>
+<table>
+  <tr>
+    <th>No.</th>
+    <th>Student ID</th>
+    <th>Full Name</th>
+    <th>GitHub Username</th>
+    <th>Role in the Project</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>25125027</td>
+    <td>Nguyen Tan Minh</td>
+    <td><a href="https://github.com/callmelucian" target="_blank">callmelucian</a></td>
+    <td><strong>Team Leader</strong> (Coordination, Roadmap, Code Review)</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>25125084</td>
+    <td>Tran Gia Huy</td>
+    <td><a href="https://github.com/FubuGold" target="_blank">FubuGold</a></td>
+    <td><strong>Main System Design</strong> (Architecture, Class Diagrams, Interfaces)</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>25125050</td>
+    <td>Bui Do Thien An</td>
+    <td><a href="https://github.com/Gasmask-Chan" target="_blank">Gasmask-Chan</a></td>
+    <td><strong>Algorithm & Logic Developer</strong> (Core Algorithms, Optimization)</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><strong>25125014</strong></td>
+    <td><strong>Nguyen Duc Huy</strong></td>
+    <td><a href="https://github.com/SpheraXX" target="_blank">SpheraXX</a></td>
+    <td><strong>Front-end Developer</strong> (User Interface, CLI/GUI UX, Validation)</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>25125048</td>
+    <td>Ly Tran Thai</td>
+    <td><a href="https://github.com/LyTranThai" target="_blank">LyTranThai</a></td>
+    <td><strong>Developer</strong> (Feature Modules, Unit Testing)</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>25125056</td>
+    <td>Tran Dang Khoa</td>
+    <td><a href="https://github.com/trankhoa8581" target="_blank">trankhoa8581</a></td>
+    <td><strong>Backend Developer</strong> (Core Services, Data I/O, Resource Mgmt)</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>23125054</td>
+    <td>Ngo Tan Dat</td>
+    <td><a href="https://github.com/diamondzone1" target="_blank">diamondzone1</a></td>
+    <td><strong>Security & Data</strong> (Data Integrity, Persistence, Security Checks)</td>
+  </tr>
+</table>
+<hr>
+<h2>3. Analysis of Strengths, Weaknesses, and Expected Contributions</h2>
+<p>During our team formation session, each member openly shared their technical capabilities, areas for growth, and agreed on their tangible contributions to ensure a balanced, high-velocity engineering workflow:</p>
+<h3>3.1. Nguyen Tan Minh (Team Leader)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Proficient in Git repository administration and workflow structuring; strong leadership in coordinating team tasks and communications.</li>
+  <li><strong>Weaknesses:</strong> Coordinating multiple responsibilities may reduce time available for direct module implementation.</li>
+  <li><strong>Expected Contribution:</strong> Lead weekly sprint planning; oversee pull requests and branching hygiene; act as the primary liaison between the team and the course instructor/TAs.</li>
+</ul>
+<h3>3.2. Tran Gia Huy (Main System Design)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Strong in software architecture design and OOP principles; capable of producing clear class diagrams and interface definitions.</li>
+  <li><strong>Weaknesses:</strong> May need more time on low-level implementation details after finalizing high-level designs.</li>
+  <li><strong>Expected Contribution:</strong> Architect the system skeleton; define abstract classes and interfaces; enforce clean code standards across all modules.</li>
+</ul>
+<h3>3.3. Bui Do Thien An (Algorithm & Logic Developer)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Good mathematical and algorithmic reasoning; focuses on performance and correctness.</li>
+  <li><strong>Weaknesses:</strong> Prefers algorithmic work over documentation and UI tasks.</li>
+  <li><strong>Expected Contribution:</strong> Implement and optimize core computational logic; validate correctness across edge cases.</li>
+</ul>
+<h3>3.4. Nguyen Duc Huy (Front-end Developer - Report Author)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Strong focus on user interaction and interface design (UI/UX); careful with input validation and technical documentation.</li>
+  <li><strong>Weaknesses:</strong> Tends to invest significant time in interface refinement before completing full end-to-end integration.</li>
+  <li><strong>Expected Contribution:</strong> Design and build the user-facing interface layer; handle input validation; integrate UI flows with backend logic; produce user guides and documentation.</li>
+</ul>
+<h3>3.5. Ly Tran Thai (Developer)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Picks up new C++ features quickly; follows code conventions consistently.</li>
+  <li><strong>Weaknesses:</strong> Needs to raise blockers and ask for clarification earlier when specifications are ambiguous.</li>
+  <li><strong>Expected Contribution:</strong> Implement assigned feature modules; write unit tests to verify module behavior.</li>
+</ul>
+<h3>3.6. Tran Dang Khoa (Backend Developer)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Solid in file I/O, data handling, and resource lifecycle management.</li>
+  <li><strong>Weaknesses:</strong> Needs to synchronize continuously with front-end to avoid interface mismatches.</li>
+  <li><strong>Expected Contribution:</strong> Develop persistence handlers; manage file I/O operations; provide clean data APIs for front-end consumption.</li>
+</ul>
+<h3>3.7. Ngo Tan Dat (Security & Data)</h3>
+<ul>
+  <li><strong>Strengths:</strong> Attentive to data security concerns and input sanitization.</li>
+  <li><strong>Weaknesses:</strong> Balancing security checks with runtime performance requires ongoing coordination with the algorithm developer.</li>
+  <li><strong>Expected Contribution:</strong> Design safe data storage structures; implement integrity checks; review code for memory safety issues.</li>
+</ul>
+  </div>
+</body>
+</html>
