@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 4 - Git</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --code-bg: #f1f5f9;
+      --accent: #0ea5e9;
+      --accent-light: #e0f2fe;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 50px 60px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1, h2, h3, h4 {
+      color: #0f172a;
+      font-weight: 700;
+      margin-top: 1.8em;
+      margin-bottom: 0.8em;
+      line-height: 1.3;
+    }
+    h1 {
+      font-size: 2.2rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.4em;
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3em;
+      color: #1e40af;
+    }
+    h3 {
+      font-size: 1.25rem;
+      color: #1e293b;
+    }
+    h4 {
+      font-size: 1.1rem;
+    }
+    p {
+      margin-bottom: 1.2em;
+    }
+    strong {
+      font-weight: 600;
+      color: #0f172a;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2em 0;
+    }
+    ul, ol {
+      margin-bottom: 1.4em;
+      padding-left: 1.8em;
+    }
+    li {
+      margin-bottom: 0.4em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5em 0 2em 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    th {
+      background-color: #f1f5f9;
+      font-weight: 600;
+      color: #334155;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    tr:hover {
+      background-color: #f1f5f9;
+    }
+    code {
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 0.88em;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0f766e;
+    }
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 16px 20px;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1.5em 0;
+    }
+    pre code {
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      font-size: 0.9rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--primary);
+      background-color: #eff6ff;
+      padding: 12px 18px;
+      margin: 1.5em 0;
+      border-radius: 0 8px 8px 0;
+      color: #1e3a8a;
+      font-style: italic;
+    }
+    blockquote p:last-child {
+      margin-bottom: 0;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+        padding: 0;
+      }
+      .container {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        max-width: 100%;
+      }
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+      table, pre, blockquote {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Exercise 4 - Git</h1>
+<p><strong>Course:</strong> CS250 - Computational Thinking</p>
+<p><strong>Class:</strong> 25A01</p>
+<p><strong>Student Name:</strong> Nguyen Duc Huy</p>
+<p><strong>Student ID:</strong> 25125014</p>
+<p><strong>Git Username:</strong> SpheraXX</p>
+<hr>
+<h2>Task 1: Personal Repository</h2>
+<p>In accordance with course policies for weekly lab tracking, version control management, and academic verification, a private Git repository has been established on GitHub:</p>
+<ul>
+  <li><strong>Git Platform:</strong> GitHub</li>
+  <li><strong>Repository Visibility:</strong> Private</li>
+  <li><strong>Personal Git Username:</strong> <code>SpheraXX</code></li>
+  <li><strong>Personal Repository URL:</strong> <a href="https://github.com/SpheraXX/cs250-lab-assignments" target="_blank">https://github.com/SpheraXX/cs250-lab-assignments</a></li>
+</ul>
+<h3>Collaborator Invitations:</h3>
+<p>As required by the course syllabus, collaborator invitations will be issued to the course lecturer and the two teaching assistants upon repository setup:</p>
+<ol>
+  <li><strong>Lecturer:</strong> NGUYEN Tuan Nam, PhD (<code>ntnam@fit.hcmus.edu.vn</code>)</li>
+  <li><strong>Teaching Assistant (TA 1):</strong> MAI Anh Tuan, MSc (<code>matuan@fit.hcmus.edu.vn</code>)</li>
+  <li><strong>Teaching Assistant (TA 2):</strong> HO Tuan Thanh, MSc (<code>htthanh@fit.hcmus.edu.vn</code>)</li>
+</ol>
+<hr>
+<h2>Task 2: Group Repository</h2>
+<p>A centralized, private Git repository has been configured by the team to host all collaborative source code, documentation, and milestones for the course final project:</p>
+<ul>
+  <li><strong>Git Platform:</strong> GitHub</li>
+  <li><strong>Repository Visibility:</strong> Private</li>
+  <li><strong>Group Repository URL:</strong> <a href="https://github.com/callmelucian/cs252-final-project" target="_blank">https://github.com/callmelucian/cs252-final-project</a></li>
+  <li><strong>Collaborator Status:</strong> All 7 active team members, along with the course lecturer and teaching assistants (<code>ntnam@fit.hcmus.edu.vn</code>, <code>matuan@fit.hcmus.edu.vn</code>, <code>htthanh@fit.hcmus.edu.vn</code>), have been granted collaborator access.</li>
+</ul>
+<h3>Official Team Member Git Roster</h3>
+<p>The table below catalogs all registered team members and their designated Git usernames. All members pledge to maintain these exact Git handles unchanged throughout the entire semester:</p>
+<table>
+  <tr>
+    <th>No.</th>
+    <th>Student ID</th>
+    <th>Full Name</th>
+    <th>Git Username</th>
+    <th>GitHub Profile Link</th>
+    <th>Project Role</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>25125027</td>
+    <td>Nguyen Tan Minh</td>
+    <td><code>callmelucian</code></td>
+    <td><a href="https://github.com/callmelucian" target="_blank">github.com/callmelucian</a></td>
+    <td>Team Leader</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>25125084</td>
+    <td>Tran Gia Huy</td>
+    <td><code>FubuGold</code></td>
+    <td><a href="https://github.com/FubuGold" target="_blank">github.com/FubuGold</a></td>
+    <td>Main System Design</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>25125050</td>
+    <td>Bui Do Thien An</td>
+    <td><code>Gasmask-Chan</code></td>
+    <td><a href="https://github.com/Gasmask-Chan" target="_blank">github.com/Gasmask-Chan</a></td>
+    <td>Algorithm & Logic Dev</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><strong>25125014</strong></td>
+    <td><strong>Nguyen Duc Huy</strong></td>
+    <td><code>SpheraXX</code></td>
+    <td><a href="https://github.com/SpheraXX" target="_blank">github.com/SpheraXX</a></td>
+    <td><strong>Front-end Developer</strong></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>25125048</td>
+    <td>Ly Tran Thai</td>
+    <td><code>LyTranThai</code></td>
+    <td><a href="https://github.com/LyTranThai" target="_blank">github.com/LyTranThai</a></td>
+    <td>Developer</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>25125056</td>
+    <td>Tran Dang Khoa</td>
+    <td><code>trankhoa8581</code></td>
+    <td><a href="https://github.com/trankhoa8581" target="_blank">github.com/trankhoa8581</a></td>
+    <td>Backend Developer</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>23125054</td>
+    <td>Ngo Tan Dat</td>
+    <td><code>diamondzone1</code></td>
+    <td><a href="https://github.com/diamondzone1" target="_blank">github.com/diamondzone1</a></td>
+    <td>Security & Data</td>
+  </tr>
+</table>
+<hr>
+<h2>Git Commit & Extraction Verification</h2>
+<p>Every weekly assignment is managed with disciplined commit hygiene, featuring descriptive conventional commit messages. The submission includes the commit history log extracted using the recommended Git command:</p>
+<pre><code>git log --graph --all --stat --since="2026-10-01 00:00:00" --until="2026-10-18 23:59:59"</code></pre>
+  </div>
+</body>
+</html>
