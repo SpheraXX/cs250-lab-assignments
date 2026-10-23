@@ -1,0 +1,6 @@
+*.zip
+*.pdf
+cs252-final-project/
+FoodRecommender_draft.md
+report.md
+__pycache__/
