@@ -43,8 +43,10 @@ Environment: Python 3, no external libraries. Run any exercise with `python main
 
 ## 3. AI Usage Declaration
 
-I wrote the solution ideas for exercises 01, 03, 04, 06, 08 and 09 myself. AI was used as an assistant:
+The algorithms are my own: I designed the approach for Ex01, 03, 04, 06, 08, 09 and the memory-array simulation for Ex07, and wrote Ex01, 04, 09 by hand. AI was used as a tool, not as the author of the ideas:
 
-| Tool | Model | Purpose | AI contribution | My part |
-| :--- | :--- | :--- | :--- | :--- |
-| Claude Code | Claude Opus 5.5 (Anthropic) | Organize repo / submission folder, review my code, help with exercises I was stuck on | Restructured the local repo to match GitHub; found the tie-break bug in Ex09; turned my ideas for Ex03, Ex06, Ex08 into code; suggested approaches for Ex02, Ex05, Ex07, Ex10 | Gave the algorithms for Ex01, 03, 04, 06, 08, 09; read and understood every solution; submitted all solutions to Codeforces and checked the verdicts |
+| Tool | Model | What I used it for |
+| :--- | :--- | :--- |
+| Claude Code | Claude Opus 5.5 (Anthropic) | Typing up my ideas for Ex03, 06, 07, 08 in my coding style; suggesting approaches for Ex02, 05, 10 where I was unsure; finding the tie-break edge case in Ex09; fixing the TLE in Ex10 (row pruning + per-row cache); reorganizing the repo folder |
+
+I reviewed and understood every solution, submitted all of them to Codeforces myself, and can explain each one.
