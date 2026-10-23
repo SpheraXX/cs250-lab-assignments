@@ -36,7 +36,7 @@ Environment: Python 3, no external libraries. Run any exercise with `python main
 | 07 | [7B - Memory Manager](https://codeforces.com/problemset/problem/7/B) | Simulate the memory as an array of size `m` (brute force, `m, t <= 100`) |
 | 08 | [8B - Obsession with Robots](https://codeforces.com/problemset/problem/8/B) | BUG if a cell is visited twice, or two cells at Manhattan distance 1 are not consecutive in the path |
 | 09 | [9B - Running Student](https://codeforces.com/problemset/problem/9/B) | Try every stop (except the first), take minimum time; on a tie take the stop closest to the university |
-| 10 | [10B - Cinema Cashier](https://codeforces.com/problemset/problem/10/B) | For each row keep a running count of free seats; segment cost from prefix sums of `|y - c|` |
+| 10 | [10B - Cinema Cashier](https://codeforces.com/problemset/problem/10/B) | For each row keep a running count of free seats; segment cost from prefix sums of `|y - c|`. Rows are checked from the middle outwards and stop early once they cannot beat the best cost; each row caches its best segment per size until a seat in it is taken |
 | 11 | Group project | See `Exercise11/` |
 
 ---
