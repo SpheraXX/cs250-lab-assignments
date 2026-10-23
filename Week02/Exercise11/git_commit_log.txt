@@ -1,0 +1,194 @@
+* commit a2817c3afa853582e703df41eccbd0e4fb79006a
+| Author: FubuGold <trangiahuy211207@gmail.com>
+| Date:   Wed Oct 21 22:21:21 2026 +0700
+| 
+|     chore: add gitignore for latex temp file
+| 
+|  .gitignore                                        |   41 +
+|  docs/week-02/slides/topic-selection-slides.aux    |   48 -
+|  .../slides/topic-selection-slides.fdb_latexmk     |  219 ----
+|  docs/week-02/slides/topic-selection-slides.fls    |  429 -------
+|  docs/week-02/slides/topic-selection-slides.log    | 1253 -------------------
+|  docs/week-02/slides/topic-selection-slides.nav    |   31 -
+|  docs/week-02/slides/topic-selection-slides.out    |    0
+|  docs/week-02/slides/topic-selection-slides.snm    |    0
+|  docs/week-02/slides/topic-selection-slides.toc    |    0
+|  docs/week-02/slides/topic-selection-slides.xdv    |  Bin 108996 -> 0 bytes
+|  10 files changed, 41 insertions(+), 1980 deletions(-)
+| 
+* commit a224d7b8b6f7229b8861b880692bf557aaa6f30e
+| Author: GasmaskChan <soratavn@gmail.com>
+| Date:   Wed Oct 21 21:34:08 2026 +0700
+| 
+|     docs: update new content
+| 
+|  docs/week-02/submission/Group05.zip               | Bin 198880 -> 1173511 bytes
+|  docs/week-02/submission/git-commit.log            | 133 --------------------
+|  docs/week-02/submission/task-distribution.md      |  73 +++++++++++
+|  docs/week-02/submission/task_distribution.md      |  74 -----------
+|  docs/week-02/submission/topic-selection-report.md |  74 +++++++----
+|  .../week-02/submission/topic-selection-report.pdf | Bin 208172 -> 237378 bytes
+|  .../week-02/submission/topic-selection-slides.pdf | Bin 58684 -> 1058256 bytes
+|  docs/week-02/topic-selection-report.md            |  74 +++++++----
+|  8 files changed, 177 insertions(+), 251 deletions(-)
+| 
+* commit 8852a70108c3de1d2dac69ee73f3f74a2119597b
+| Author: trankhoa8581 <trankhoa8581@gmail.com>
+| Date:   Wed Oct 21 19:54:42 2026 +0700
+| 
+|     docs: add task_distribution.md
+| 
+|  docs/week-02/submission/task_distribution.md | 74 ++++++++++++++++++++++++++
+|  1 file changed, 74 insertions(+)
+| 
+* commit 467268dc88f8a11ddcb276da8b2ff8e917ab6562
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Wed Oct 21 15:41:58 2026 +0700
+| 
+|     Finalize slide (4)
+| 
+|  .../slides/topic-selection-slides.fdb_latexmk     |  14 +++++++-------
+|  docs/week-02/slides/topic-selection-slides.log    |   4 ++--
+|  docs/week-02/slides/topic-selection-slides.pdf    | Bin 1058357 -> 1058262 bytes
+|  docs/week-02/slides/topic-selection-slides.tex    |   3 +--
+|  docs/week-02/slides/topic-selection-slides.xdv    | Bin 109840 -> 108996 bytes
+|  5 files changed, 10 insertions(+), 11 deletions(-)
+| 
+* commit 4a415ad0284575cb577c514dae0abb959a01b94f
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Wed Oct 21 15:24:12 2026 +0700
+| 
+|     Finalize slides (3)
+| 
+|  docs/week-02/slides/image.png                     | Bin 0 -> 823975 bytes
+|  docs/week-02/slides/topic-selection-slides.aux    |  15 ++++------
+|  .../slides/topic-selection-slides.fdb_latexmk     |  15 +++++-----
+|  docs/week-02/slides/topic-selection-slides.fls    |   6 ++--
+|  docs/week-02/slides/topic-selection-slides.log    |  24 +++++++---------
+|  docs/week-02/slides/topic-selection-slides.nav    |  12 ++++----
+|  docs/week-02/slides/topic-selection-slides.pdf    | Bin 397846 -> 1058357 bytes
+|  docs/week-02/slides/topic-selection-slides.tex    |  29 ++++++++++++--------
+|  docs/week-02/slides/topic-selection-slides.xdv    | Bin 113144 -> 109840 bytes
+|  docs/week-02/topic-selection-report.md            |   4 +--
+|  10 files changed, 52 insertions(+), 53 deletions(-)
+| 
+* commit 56f84a53c42f8af03ee424d6b2a4eee5fff2761d
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Wed Oct 21 15:07:03 2026 +0700
+| 
+|     Finalize slide (2)
+| 
+|  .../slides/topic-selection-slides.fdb_latexmk     |  14 +++++++-------
+|  docs/week-02/slides/topic-selection-slides.log    |   6 +++---
+|  docs/week-02/slides/topic-selection-slides.pdf    | Bin 398626 -> 397846 bytes
+|  docs/week-02/slides/topic-selection-slides.tex    |  17 +++++++++--------
+|  docs/week-02/slides/topic-selection-slides.xdv    | Bin 117416 -> 113144 bytes
+|  5 files changed, 19 insertions(+), 18 deletions(-)
+| 
+* commit 8d818899e5f3424f4f26df3fa5981ea2bb928411
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Wed Oct 21 14:13:47 2026 +0700
+| 
+|     Finalize slide
+| 
+|  docs/week-02/slides/topic-selection-slides.aux    |  21 +-
+|  .../slides/topic-selection-slides.fdb_latexmk     |  16 +-
+|  docs/week-02/slides/topic-selection-slides.fls    |  41 +++
+|  docs/week-02/slides/topic-selection-slides.log    | 289 ++++++++++++--------
+|  docs/week-02/slides/topic-selection-slides.nav    |  16 +-
+|  docs/week-02/slides/topic-selection-slides.pdf    | Bin 394004 -> 398626 bytes
+|  docs/week-02/slides/topic-selection-slides.tex    | 127 +++++++--
+|  docs/week-02/slides/topic-selection-slides.xdv    | Bin 94764 -> 117416 bytes
+|  8 files changed, 348 insertions(+), 162 deletions(-)
+| 
+* commit 4f4603c4114f349549b20296c982f6674d563111
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Wed Oct 21 13:16:50 2026 +0700
+| 
+|     docs: Finalize slides
+| 
+|  docs/Logo chinh (Ky hieu nguyen tu mau trang).png |  Bin 0 -> 376116 bytes
+|  docs/week-02/slides/topic-selection-slides.aux    |   42 +
+|  .../slides/topic-selection-slides.fdb_latexmk     |  216 ++++
+|  docs/week-02/slides/topic-selection-slides.fls    |  388 ++++++
+|  docs/week-02/slides/topic-selection-slides.log    | 1196 +++++++++++++++++++
+|  docs/week-02/slides/topic-selection-slides.nav    |   27 +
+|  docs/week-02/slides/topic-selection-slides.out    |    0
+|  docs/week-02/slides/topic-selection-slides.pdf    |  Bin 58684 -> 394004 bytes
+|  docs/week-02/slides/topic-selection-slides.snm    |    0
+|  docs/week-02/slides/topic-selection-slides.tex    |  228 ++--
+|  docs/week-02/slides/topic-selection-slides.toc    |    0
+|  docs/week-02/slides/topic-selection-slides.xdv    |  Bin 0 -> 94764 bytes
+|  12 files changed, 2006 insertions(+), 91 deletions(-)
+| 
+* commit 35eb3a1aacdd99e65c6f60ceb9f78507786b4545
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Mon Oct 19 23:29:33 2026 +0700
+| 
+|     docs: Minor changes
+| 
+|  docs/week-02/slides/topic-selection-slides.pdf    | Bin 58686 -> 58684 bytes
+|  docs/week-02/slides/topic-selection-slides.tex    |   2 +-
+|  docs/week-02/submission/Group05.zip               | Bin 198887 -> 198880 bytes
+|  .../week-02/submission/topic-selection-slides.pdf | Bin 58686 -> 58684 bytes
+|  4 files changed, 1 insertion(+), 1 deletion(-)
+| 
+* commit 82df5da6eec2d3915054c9876ff3ca5c65724e9f
+| Author: callmelucian <luciannguyen07@gmail.com>
+| Date:   Mon Oct 19 23:20:36 2026 +0700
+| 
+|     docs: Finalize week 02 submission
+| 
+|  LyTranThai/ai_usage_declaration.md                |   34 -
+|  LyTranThai/presentation.html                      | 1634 -------------------
+|  LyTranThai/presentation.md                        |  384 -----
+|  LyTranThai/presentation.pdf                       |  Bin 277332 -> 0 bytes
+|  LyTranThai/report.html                            |  882 ----------
+|  LyTranThai/report.md                              |  712 --------
+|  LyTranThai/task_distribution.md                   |   53 -
+|  docs/week-02/submission/Group05.zip               |  Bin 0 -> 198887 bytes
+|  docs/week-02/submission/ai-usage.md               |   13 +
+|  docs/week-02/submission/git-commit.log            |  133 ++
+|  docs/week-02/submission/topic-selection-report.md |  258 +++
+|  .../week-02/submission/topic-selection-report.pdf |  Bin 0 -> 208172 bytes
+|  .../week-02/submission/topic-selection-slides.pdf |  Bin 0 -> 58686 bytes
+|  13 files changed, 404 insertions(+), 3699 deletions(-)
+|   
+*   commit 51eb5af81e56bf820cd484be328d44135590f241
+|\  Merge: 896edca b6cd6b6
+| | Author: callmelucian <luciannguyen07@gmail.com>
+| | Date:   Mon Oct 19 23:13:41 2026 +0700
+| | 
+| |     Merge branch 'main' of https://github.com/callmelucian/cs252-final-project
+| | 
+| * commit b6cd6b611f6d821d7b621427c20001850268fcab
+|   Author: LyTranThai <lytranthai1234@gmail.com>
+|   Date:   Mon Oct 19 20:09:57 2026 +0700
+|   
+|       Testing
+|   
+|    LyTranThai/ai_usage_declaration.md |   34 +
+|    LyTranThai/presentation.html       | 1634 ++++++++++++++++++++++++++++++++
+|    LyTranThai/presentation.md         |  384 ++++++++
+|    LyTranThai/presentation.pdf        |  Bin 0 -> 277332 bytes
+|    LyTranThai/report.html             |  882 +++++++++++++++++
+|    LyTranThai/report.md               |  712 ++++++++++++++
+|    LyTranThai/task_distribution.md    |   53 ++
+|    7 files changed, 3699 insertions(+)
+| 
+* commit 896edca39d42927ae50c2877ecb995cc49cd5b86
+  Author: callmelucian <luciannguyen07@gmail.com>
+  Date:   Mon Oct 19 23:13:10 2026 +0700
+  
+      docs: Topic selection report
+  
+   ai-usage/week-02.md                            |  13 +
+   docs/week-02/drafts/4Pillar.md                 |  47 ++++
+   docs/week-02/drafts/FoodRecommender_draft.md   |  36 +++
+   docs/week-02/drafts/pillars.md                 |  25 ++
+   docs/week-02/drafts/report.md                  | 260 ++++++++++++++++++
+   docs/week-02/drafts/topic-selection-draft.md   |  37 +++
+   docs/week-02/slides/topic-selection-slides.pdf | Bin 0 -> 58686 bytes
+   docs/week-02/slides/topic-selection-slides.tex | 328 +++++++++++++++++++++++
+   docs/week-02/topic-selection-report.md         | 258 ++++++++++++++++++
+   9 files changed, 1004 insertions(+)
