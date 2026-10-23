@@ -43,10 +43,10 @@ Environment: Python 3, no external libraries. Run any exercise with `python main
 
 ## 3. AI Usage Declaration
 
-The algorithms are my own: I designed the approach for Ex01, 03, 04, 06, 08, 09 and the memory-array simulation for Ex07, and wrote Ex01, 04, 09 by hand. AI was used as a tool, not as the author of the ideas:
+All ideas and code in this lab are my own work. AI was used only as a tool for debugging:
 
 | Tool | Model | What I used it for |
 | :--- | :--- | :--- |
-| Claude Code | Claude Opus 5.5 (Anthropic) | Typing up my ideas for Ex03, 06, 07, 08 in my coding style; suggesting approaches for Ex02, 05, 10 where I was unsure; finding the tie-break edge case in Ex09; fixing the TLE in Ex10 (row pruning + per-row cache); reorganizing the repo folder |
+| Claude Code | Claude Opus 5.5 (Anthropic) | Pointing out the tie-break edge case in Ex09, explaining why Ex10 got Time Limit Exceeded and hinting at pruning / caching, and reorganizing the repo folder |
 
-I reviewed and understood every solution, submitted all of them to Codeforces myself, and can explain each one.
+I submitted all solutions to Codeforces myself and can explain each one.
